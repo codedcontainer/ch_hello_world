@@ -10,6 +10,7 @@ namespace ch_hello_world.Controllers
     {
         public ActionResult Index()
         {
+
             return View();
         }
 
@@ -19,7 +20,7 @@ namespace ch_hello_world.Controllers
 
             return View();
         }
-
+      
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";

@@ -18,8 +18,10 @@ namespace ch_hello_world
             // ready for production, use the build tool at https://modernizr.com to pick only the tests you need.
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
+           
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
+                        "~/Scripts/popper.js",
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
