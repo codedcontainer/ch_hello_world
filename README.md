@@ -12,7 +12,7 @@ Uses Visual Studio C# MVC and C# API
 
 === Build Process ===
 * Add two inputs, first name and last name
-  * Valiate these forms on the client side, formvalidation.io or built in validators?
+  * Valiate these inputs on the client side, formvalidation.io or built in validators?
     * Fiels cannot be empty and must be strings not integers
   * Send these inputs to our process page which will include a class with 5 different methods
     * method 1: Grab values from the form and send each value to method 2.
