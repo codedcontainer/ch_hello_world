@@ -20,7 +20,7 @@ Uses Visual Studio C# MVC and C# API
     * method 3: See if the first and last name are a match in the db, if not then add. 
       * SELECT * FROM names WHERE fname="" AND lname =""; 
     * method 3: Concatinate the strings together if they are valid from method 2
-* Have a api page
+* Have an API page
   * Grab all values form db and list them on a page
   * ?firstname="string"&lastname="string"
     * return the item form the db and list as json for use in another application
