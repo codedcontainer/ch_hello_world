@@ -25,7 +25,7 @@ Uses Visual Studio C# MVC and C# API
   * Grab all values form db and list them on a page
   * ?firstname="string"&lastname="string"
     * return the item form the db and list as json for use in another application
-    * return false message if firstname or lastname are not valid using regix from method 2 or if empty
+    * return false message if firstname or lastname are not valid using regex from method 2 or if empty
     * return false if using other search parameter and notify the user of their mistake. 
     
       
