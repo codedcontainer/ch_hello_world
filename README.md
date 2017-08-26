@@ -15,7 +15,7 @@
  * Local DB \ProjectsV13 (may differ from your setup)
  * Bootstrap 4 Alpha
 
-## Build Process ##
+## Initial Thought Process ##
 * Add two inputs, first name and last name
   * Valiate these inputs on the client side, formvalidation.io or built in validators?
     * Fiels cannot be empty and must be strings not integers
