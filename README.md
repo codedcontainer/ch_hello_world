@@ -28,4 +28,11 @@ Uses Visual Studio C# MVC and C# API
     * return false message if firstname or lastname are not valid using regex from method 2 or if empty
     * return false if using other search parameter and notify the user of their mistake. 
     
+ == TOOLS USED ==
+ * Visual Studio 2017
+ * NuGet Package Manager
+ * Entity Framework - Code First
+ * Local DB \ProjectsV13 (may differ from your setup)
+ * Bootstrap 4 Alpha
+    
       
