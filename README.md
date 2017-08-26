@@ -33,6 +33,9 @@
     * return false message if firstname or lastname are not valid using regex from method 2 or if empty
     * return false if using other search parameter and notify the user of their mistake. 
     
+## After Thoughts ##
+* MVC kicks butt!
+    
 
     
       
