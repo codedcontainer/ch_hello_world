@@ -1,7 +1,6 @@
 # Hello World Application (MVC, OOP, API)
-Uses Visual Studio C# MVC and C# API
 
-=== Requirements == 
+## Requirements ##
 1. The program has 1 current business requirement a write Hello World to the console/screen.
 2. The program should have an API that is separated from the program logic to eventually support mobile applications, web applications, console applications or windows services.
 3. The program should support future enhancements for writing to a database, console application, etc.
@@ -9,8 +8,14 @@ Uses Visual Studio C# MVC and C# API
    * Use configuration files or another industry standard mechanism for determining where to write the information to.
 4. Write unit tests to support the API.
 
+## Tools Used ##
+ * Visual Studio 2017
+ * NuGet Package Manager
+ * Entity Framework - Code First
+ * Local DB \ProjectsV13 (may differ from your setup)
+ * Bootstrap 4 Alpha
 
-=== Build Process ===
+## Build Process ##
 * Add two inputs, first name and last name
   * Valiate these inputs on the client side, formvalidation.io or built in validators?
     * Fiels cannot be empty and must be strings not integers
@@ -27,5 +32,7 @@ Uses Visual Studio C# MVC and C# API
     * return the item form the db and list as json for use in another application
     * return false message if firstname or lastname are not valid using regex from method 2 or if empty
     * return false if using other search parameter and notify the user of their mistake. 
+    
+
     
       
