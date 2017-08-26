@@ -8,7 +8,7 @@
    * Use configuration files or another industry standard mechanism for determining where to write the information to.
 4. Write unit tests to support the API.
 
-## TOOLS USED ##
+## Tools Used ##
  * Visual Studio 2017
  * NuGet Package Manager
  * Entity Framework - Code First
