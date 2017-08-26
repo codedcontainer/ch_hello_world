@@ -1,0 +1,33 @@
+@using System.Web.Http
+@using System.Web.Http.Controllers
+@using System.Web.Http.Description
+@using System.Collections.ObjectModel
+@using ch_hello_world.Areas.HelpPage.Models
+@model Collection<ApiDescription>
+
+@{
+  
+    // Group APIs by controller
+    ILookup<HttpControllerDescriptor, ApiDescription> apiGroups = Model.ToLookup(api => api.ActionDescriptor.ControllerDescriptor);
+}
+
+<link type="text/css" href="~/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
+
+<div id="body" class="help-page">
+    <section class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="content-wrapper">
+                <h1 class="display-3">ASP.NET Web API Help Page</h1>
+                <p>
+                    Allows the user to select all people entered in the databse. This is a list of first and last names.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+        @foreach (var group in apiGroups)
+        {
+            @Html.DisplayFor(m => group, "ApiGroup")
+        }
+    </section>
+</div>

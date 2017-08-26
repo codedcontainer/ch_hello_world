@@ -1,51 +1,38 @@
 ﻿<!DOCTYPE html>
-<html ng-app="myApp">
+<html lang="en">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @RenderSection("scripts", required: false)
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 </head>
 <body>
-
     <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <a class="navbar-brand" href="/">Hello World</a>
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item ">
-                      <a class="nav-link" href="/Names">Names Index</a>
-                </li>
-                <li class="nav-item">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">               
+                <li class="nav-item active">
                     <a class="nav-link" href="/help">API</a>
-                    
+
                 </li>
-                
-              
+
+
             </ul>
-            
+
         </div>
     </nav>
- 
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - Jason Utt's Hello World Example</p>
-        </footer>
+
+    <div class="container-fluid">
+        <div class="container">
+
+            @RenderBody()
+        </div>
     </div>
-    @RenderSection("scripts", required: false)
-   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js" ></script>
-  <script src="Scripts/app.js" ></script>
-    <script>
-        $('btn[value="Create"]').on('click', function (e) {
-            e.preventDefault(); 
-        }); 
-    </script>
 </body>
 </html>
