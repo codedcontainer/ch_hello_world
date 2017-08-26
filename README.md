@@ -1,5 +1,4 @@
 # Hello World Application (MVC, OOP, API)
-Uses Visual Studio C# MVC and C# API
 
 === Requirements == 
 1. The program has 1 current business requirement a write Hello World to the console/screen.
@@ -9,6 +8,12 @@ Uses Visual Studio C# MVC and C# API
    * Use configuration files or another industry standard mechanism for determining where to write the information to.
 4. Write unit tests to support the API.
 
+ == TOOLS USED ==
+ * Visual Studio 2017
+ * NuGet Package Manager
+ * Entity Framework - Code First
+ * Local DB \ProjectsV13 (may differ from your setup)
+ * Bootstrap 4 Alpha
 
 === Build Process ===
 * Add two inputs, first name and last name
@@ -28,11 +33,6 @@ Uses Visual Studio C# MVC and C# API
     * return false message if firstname or lastname are not valid using regex from method 2 or if empty
     * return false if using other search parameter and notify the user of their mistake. 
     
- == TOOLS USED ==
- * Visual Studio 2017
- * NuGet Package Manager
- * Entity Framework - Code First
- * Local DB \ProjectsV13 (may differ from your setup)
- * Bootstrap 4 Alpha
+
     
       
