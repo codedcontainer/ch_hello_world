@@ -14,6 +14,8 @@
  * Entity Framework - Code First
  * Local DB \ProjectsV13 (may differ from your setup)
  * Bootstrap 4 Alpha
+ * Angular 1
+ * Microsoft.AspNet.WebApi
 
 ## Initial Thought Process ##
 * Add two inputs, first name and last name
@@ -34,7 +36,11 @@
     * return false if using other search parameter and notify the user of their mistake. 
     
 ## After Thoughts ##
-* MVC kicks butt!
+1. AngularJS writes Hello World to page
+2. The app includes an API to return added names
+3. Controller inherits from DbContext when using Entity Framework
+4. Help pages help the user to know how to return information from the API
+5. MVC kicks butt!
     
 
     
